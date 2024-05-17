@@ -2,6 +2,8 @@
 
 ---
 
+## Automatic tests of the https://skleptest.pl
+
 ### Selenium Tests 
 
 This project is dedicated to automating tests for the website skleptest.pl using the Selenium WebDriver tool.
