@@ -25,19 +25,12 @@ This project focuses on automating tests for the EriBank application using the A
 This project is dedicated to automating tests for the mobile version of the website bazylika-pszow.pl using the Appium framework, AndroidDriver, TestNG, and emulators available in Android Studio. The tests are written in Java.
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ### Playwright Tests
 
 ## Automatic tests of the https://bazylika-pszow.pl website
 
 This project focuses on automating tests for the desktop version of the website bazylika-pszow.pl using Java, TestNG, and Playwright. The tests are conducted on Google Chrome, Mozilla Firefox, and Microsoft Edge browsers. Test data is generated using Mockaroo, and test reports are generated using Allure. Additionally, the project is integrated with Qase for test management.
-
-
----
 
 ---
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
