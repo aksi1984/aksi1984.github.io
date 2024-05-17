@@ -6,7 +6,7 @@
 
 ### Automatic tests of the https://skleptest.pl
 
-This project is dedicated to automating tests for the website skleptest.pl using the Selenium WebDriver tool.
+This project is dedicated to automating tests for the website skleptest.pl using the Selenium WebDriver tool. [More...](https://github.com/Selenium-tests/Generic-Shop-website)
 
 ### Automatic tests of the https://fakestore.testelka.pl/
 
