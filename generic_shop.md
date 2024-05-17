@@ -1,32 +1,54 @@
-## This can be your internal website page / project page
+# Automated Testing for Skleptest.pl
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## Description
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+This project is dedicated to automating tests for the website [skleptest.pl](https://skleptest.pl/) using the Selenium WebDriver tool.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+### Project goal
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+The aim of the project is to ensure high application quality through the automation of the testing process for the Skleptest.pl website. Automation allows tests to be executed in a repeatable and effective manner, contributing to faster detection of errors and improvement of product quality.
 
-### 2. Assess assumptions on which statistical inference will be based
+### Tested Functionality
+The following functionalities are tested through automated tests:
+- Links on the homepage and subpages
+- Buttons on the homepage and subpages
+- Newsletter subscription
+- Login functionality
+- Providing data for the billing address form
+- Adding products to the cart
+- Checkout
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### Tools Used
+- **Selenium WebDriver:** Used for automating interactions with web browsers.
+- **TestNG:** Framework for creating and managing automated tests.
+- **Allure:** Tool for generating clear reports with test results.
+- **Qase:** Test management tool, integrated with the project for better progress tracking and task management.
+- **Mockaroo:** Used for generating test data for tests.
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### Supported Browsers
+Test automation allows tests to be run on three popular web browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+## Reporting
 
-### 4. Provide a basis for further data collection through surveys or experiments
+Test result reports are generated using the Allure tool, enabling clear and transparent presentation of test results.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+## Integration with Qase
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The project has been integrated with the Qase tool for better test management. Updates regarding test progress and results can be tracked in the Qase interface.
 
+## Generating Test Data
+
+Test data used in tests has been generated using the Mockaroo tool, ensuring diversity and realism of data in the introduced test scenarios.
+
+## Issue with Tests on Mozilla Firefox Browser
+
+⚠️ Currently, there is an issue with tests related to the billing address form on the Mozilla Firefox browser. Therefore, it is recommended to either skip these tests by removing them from the .xml file for TestNG or using the @Ignore annotation from TestNG when running them on this browser. Work on resolving this issue is ongoing and will be implemented as soon as possible.
+
+
+
+
+![Java](https://img.shields.io/badge/Java-%230A1A2F?style=flat&logo=openjdk&logoColor=%236875CD) ![Selenium](https://img.shields.io/badge/Selenium-%230A1A2F?style=flat&logo=Selenium&logoColor=%2300cc00) ![Webdriver](https://img.shields.io/badge/Webdriver-%230A1A2F?style=flat&logo=Webdriver
+) ![Intelij Idea](https://img.shields.io/badge/-IntelliJ%20IDEA-0A1A2F?style=flat&logo=intelliJ-idea&logoColor=0a76ef) ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-%230A1A2F?style=flat&logo=Visual%20Studio&logoColor=%2348aaeb) ![Qase](https://img.shields.io/badge/Qase-%230A1A2F?style=flat&logo=Qase&logoColor=%236875CD)
