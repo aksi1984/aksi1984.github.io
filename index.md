@@ -4,8 +4,7 @@
 
 ### Selenium Tests 
 
-[Automatic tests for the https://skleptest.pl website](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+This project is dedicated to automating tests for the website skleptest.pl using the Selenium WebDriver tool.
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
