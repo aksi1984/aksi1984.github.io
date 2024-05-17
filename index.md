@@ -4,7 +4,7 @@
 
 ### Selenium Tests 
 
-[Project 1 Title](/sample_page)
+[Automatic tests for the https://skleptest.pl website](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
